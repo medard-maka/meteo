@@ -1,0 +1,186 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Header */
+/* Header */
+header {
+    background-color: #868B8E;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #6bff70;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Main */
+main {
+    padding: 20px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #868B8E;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li a {
+    color: #fff;
+    font-size: 30px; /* Augmenter la taille des icônes */
+}
+
+.social-icons li a:hover {
+    color: #aaa;
+}
+
+/* Styles artistiques */
+body {
+    background-color: #f9f9f9;
+}
+
+header img {
+    border-radius: 100px;
+}
+
+
+
+h1, h2 {
+    color: #333;
+    font-family:  'Courier New', Courier, monospace;
+}
+
+nav ul li a {
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #970C10;
+}
+
+.gallery {
+    width: 100%;
+    height: 200;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #868B8E;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    background-color: #f2f2f2;
+    color: #333;
+    border: none;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #ff6b6b;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+    /* Styles pour les appareils mobiles */
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    .gallery img {
+        max-width: 200px;
+        height: 200px;
+    }
+
+    .contact-form {
+        max-width: 100%;
+        padding: 0 20px;
+    }
